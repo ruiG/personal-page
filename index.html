@@ -14,13 +14,29 @@
   </head>
   <body>
     <section class="container">
-      <img id="me" src="/Me.jpg?url" alt="me" class="logo" />
+      <img id="me" src="/Me.jpg" alt="me" class="logo" />
       <h1>Rui Gonçalves</h1>
-      <h2 hx-get="%VITE_API_URL%/aboutme" hx-trigger="load, every 6s">
-        Software developer 🚀
-      </h2>
+      <h2>Software Developer & Cloud Engineer 👨‍💻</h2>
+    </section>
+    <section class="container">
+      <h3>About me</h3>
+      <p>
+        With over 10 years in frontend engineering and a recent shift into
+        DevOps, I now focus on cloud architecture and observability in Azure. I
+        build backend systems in Go that empower enterprise platforms with
+        smarter monitoring and automation.
+      </p>
+    </section>
 
-      <button id="target">🚀</button>
+    <section class="container">
+      <h3>Skills</h3>
+      <div>
+        <span>Typescript</span>
+        <span>React</span>
+        <span>Go</span>
+        <span>Azure DevOps</span>
+        <span>Azure</span>
+      </div>
     </section>
   </body>
   <script type="module" src="/main.js"></script>

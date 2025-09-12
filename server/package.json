@@ -1,6 +1,6 @@
 {
   "name": "my-htmx-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "serve HTMX duh",
   "main": "main.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^5.1.0"
   }
 }
